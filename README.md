@@ -2,6 +2,13 @@
   <h1>Projeto Estoque de Supermercado (CRUD)</h1>
   <p>Esta é uma API REST desenvolvida para o gerenciamento de stock de supermercados, construída com Java 25 e Spring Boot 4. O projeto foi concebido como um exemplo prático de aplicação de princípios de Clean Code, Arquitetura em Camadas e Resiliência no Tratamento de Erros.</p>
 </div>
+<div>
+  
+
+https://github.com/user-attachments/assets/7d316a26-d784-41f0-a89a-6e50349f2296
+
+
+</div>
 <br>
 <div align="center">
   <h2>Diferenciais do Projeto</h2>
