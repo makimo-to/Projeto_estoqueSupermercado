@@ -49,11 +49,8 @@
   
   <h3>clone o projeto</h3>
   <p>para sistemas windows/linux:</p>
-  <pre>
-    <code>
-    git clone https://github.com/makimo-to/Projeto_estoqueSupermercado.git 
-    cd Projeto_Supermecado 
-  </code></pre>
+  <pre><code>git clone https://github.com/makimo-to/Projeto_estoqueSupermercado.git 
+cd Projeto_Supermecado </code></pre>
   
   <h3>Configurar Variáveis de Ambiente</h3>
   <p>O projeto utiliza variáveis externas para proteger dados sensíveis. Você deve criar um arquivo chamado .env na raiz do projeto ou configurar as variáveis no seu sistema/IDE com os seguintes valores:</p
@@ -65,19 +62,11 @@
   </ul>
 
   <h3>Iniciar o Banco de Dados (Docker)</h3>
-  <pre>
-    <code>
-      docker-compose up -d 
-    </code>
-  </pre>
+  <pre><code>docker-compose up -d</code></pre>
 
   <h3>compilar e rodas a aplicação</h3>
-  <pre>
-    <code>
-        ./mvnw clean install
-        ./mvnw spring-boot:run
-    </code>
-  </pre>
+  <pre><code> ./mvnw clean install
+    ./mvnw spring-boot:run</code></pre>
   
 </div>
 
