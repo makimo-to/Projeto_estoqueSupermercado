@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/cce41592-d983-436c-ace5-bbeb6106465e
 
 </div>
 <br>
-<div align="center">
+<div align="left">
   <h2>Diferenciais do Projeto</h2>
 </div>
 
@@ -66,18 +66,18 @@ cd Projeto_Supermecado </code></pre>
   <h3>Configurar Variáveis de Ambiente</h3>
   <p>O projeto utiliza variáveis externas para proteger dados sensíveis. Você deve criar um arquivo chamado .env na raiz do projeto ou configurar as variáveis no seu sistema/IDE com os seguintes valores:</p
     <ul>
-    <li><code>DATABASE_URL: URL de conexão</code> (ex: jdbc:mysql://localhost:3306/db_supermercado).</li>
+    <li><code>DATABASE_URL:</code> URL de conexão (ex: jdbc:mysql://localhost:3306/db_supermercado).</li>
     <li><code>DATABASE_DRIVE:</code> Driver do banco (ex: com.mysql.cj.jdbc.Driver).</li>
     <li><code>DATABASE_USERNAME:</code> Seu usuário do banco.</li>
     <li><code>DATABASE_PASSOWORD:</code> Sua senha do banco.</li>
   </ul>
 
-  <h3>Iniciar o Banco de Dados (Docker)</h3>
+  <h3>Iniciar o Banco de Dados (pelo docker)</h3>
   <pre><code>docker-compose up -d</code></pre>
 
   <h3>compilar e rodas a aplicação</h3>
   <pre><code> ./mvnw clean install
-    ./mvnw spring-boot:run</code></pre>
+./mvnw spring-boot:run</code></pre>
   
 </div>
 
