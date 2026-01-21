@@ -20,20 +20,20 @@ https://github.com/user-attachments/assets/cce41592-d983-436c-ace5-bbeb6106465e
 
 <div align="left">
   
-  <h3>🏛️ Arquitetura e Design de Software</h3>
+  <h3>Arquitetura e Design de Software</h3>
   <ul>
     <li><strong>Padrão DTO (Data Transfer Object):</strong> Implementado para isolar as entidades do banco de dados da camada de exposição (API), garantindo que dados sensíveis ou internos não sejam expostos desnecessariamente.</li>
     <li><strong>Camada de Mapeamento (Mappers):</strong>Utilização de componentes dedicados para a conversão entre ProdutoModel e ProdutoDTO, mantendo a lógica de conversão centralizada e limpa.</li>
     <li><strong>Camada de Serviço (Service):</strong>Toda a regra de negócio está concentrada na ProdutoService, mantendo o controlador (Controller) leve e focado apenas no fluxo de requisição/resposta.</li>
   </ul>
   
-  <h3>🛠️ Robustez e Tratamento de Erros</h3>
+  <h3>Robustez e Tratamento de Erros</h3>
   <ul>
     <li><strong>Global Exception Handling: </strong>Implementação de um @RestControllerAdvice no ProdutoController para capturar exceções de validação e retornar mensagens amigáveis e padronizadas para o cliente.</li>
     <li><strong>Validação de Dados:</strong>Uso rigoroso de Bean Validation (@NotNull, @Min) para garantir a integridade dos dados antes mesmo de chegarem à camada de negócio. </li>
   </ul>
   
-  <h3>🔒 Segurança e Configuração</h3>
+  <h3>Segurança e Configuração</h3>
   <ul>
     <li><strong>Externalização de Configurações:</strong>Uso de variáveis de ambiente (.env) e perfis de configuração no application.properties para gerir credenciais de banco de dados de forma segura, evitando o hard-coding de senhas.</li>
     <li><strong>Infraestrutura com Docker:</strong>Disponibilização de um arquivo docker-compose.yml para facilitar o setup do ambiente de base de dados (MySQL), garantindo que a aplicação seja facilmente replicável.</li>
@@ -41,14 +41,14 @@ https://github.com/user-attachments/assets/cce41592-d983-436c-ace5-bbeb6106465e
 </div>
 
 <div align="left">
-  <h2>📋 Pré-requisitos</h2>
-  <h3>🔧 Ambiente de Desenvolvimento</h3>
+  <h2>Pré-requisitos</h2>
+  <h3>Ambiente de Desenvolvimento</h3>
   <ul>
     <li>Java JDK 25: O projeto utiliza a versão mais recente do Java (OpenJDK 25).</li>
     <li>Maven 3.x: Gerenciador de dependências e build do projeto.</li>
     <li>IDE: Recomendado IntelliJ IDEA (devido às configurações de variáveis de ambiente mostradas nos prints) ou VS Code com extensões Java.</li>
   </ul>
-  <h3>🗄️ Banco de Dados e Infraestrutura</h3>
+  <h3>Banco de Dados e Infraestrutura</h3>
   <ul>
     <li>Docker & Docker Compose: Necessários para subir o container do MySQL 8.0 configurado no projeto.</li>
     <li>H2 Database (Opcional): O projeto está configurado para suportar banco em memória ou arquivo local para testes rápidos.</li>
@@ -56,7 +56,7 @@ https://github.com/user-attachments/assets/cce41592-d983-436c-ace5-bbeb6106465e
 </div>
 
 <div align="left">
-  <h2>🔧 Instalação</h2>
+  <h2>Instalação</h2>
   
   <h3>clone o projeto</h3>
   <p>para sistemas windows/linux:</p>
